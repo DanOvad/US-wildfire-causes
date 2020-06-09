@@ -2,8 +2,10 @@
 **By: Dan Ovadia** \
 Date: June 8, 2020
 # Read Me
+
 This project is intended to explore a large dataset that has been provided by FPA-FOD for the last 5 years. 
 There are 1.88 million fires recorded in the United States from 1992-2017 and we will be exploring the causes, and where these fires mostly happen.
+
 ----
 ## Problem Statement
 Predicting or preparing for wildfires has always been challenge. Many catastrophes and natural disasters impact society in many different ways, but the shear speed and unpredictability of how wild fires spread and behave still impacts societies today.
@@ -66,20 +68,41 @@ The data do not provide a lot of contextual details into each fire. FIPS codes w
    
    
    <img src="./plots/area_by_cause.png" alt="Example" width="800" height="">
+   
+   
+   <img src="./plots/dist_count_by_cause_state.png" alt="Example" width="1200" height="">
+   
+   <img src="./plots/prop_count_by_cause_state.png" alt="Example" width="1200" height="">
+   
+   <img src="./plots/dist_area_by_cause_state.png" alt="Example" width="1200" height="">
+   
+   <img src="./plots/prop_area_by_cause_state.png" alt="Example" width="1200" height="">
 
 
-### EDA
-### Mapping
-### Modeling
+### Section 2 - Fire Classes
 
-## Section 2 - Mapping large fires in the continuous United States
+   <img src="./plots/dist_by_class.png" alt="Example" width="800" height="">
 
-## EDA
+   <img src="./plots/area_by_class.png" alt="Example" width="800" height="">
+   
 
+   
+   
+   <img src="./plots/dist_count_class_state.png" alt="Example" width="1200" height="">
+   
+   <img src="./plots/prop_count_class_state.png" alt="Example" width="1200" height=""> 
+   
+   <img src="./plots/dist_area_by_class_state.png" alt="Example" width="1200" height="">
+   
+   <img src="./plots/prop_area_by_class_state.png" alt="Example" width="1200" height="">
+
+![](./Fires-by-year.gif)
 ## Mapping
 
+![](./state-count-by-year.gif)
 ## Modeling
 
+![](./locations_by_year.gif)
 ## Conclusion
 
 ## Next Steps
