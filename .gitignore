@@ -1,0 +1,8 @@
+# We want to ignore all files that store a lot of data
+
+*.sqlite
+*.dbf
+*.shx
+*.shp
+*.prj
+*.shp.xml
